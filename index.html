@@ -25,11 +25,11 @@
                 <div>
                     <address class="address">
                         <ul class="address-menu">
-                            <li>
-                                <a href="mailto:info@devstudio.com" class="address-item">info@devstudio.com</a>
+                            <li class="address-item">
+                                <a href="mailto:info@devstudio.com" class="address-item-name">info@devstudio.com</a>
                             </li>
-                            <li>
-                                <a href="tel:+110001111111" class="address-item">+11 (000) 111-11-11</a>
+                            <li class="address-item">
+                                <a href="tel:+110001111111" class="address-item-name">+11 (000) 111-11-11</a>
                             </li>
                         </ul>
                     </address>
@@ -38,7 +38,7 @@
         </header>
         <main>
             <section class="hero">
-                <div class="container hero-container">
+                <div class="container">
                     <h1 class="hero-name">Effective Solutions for Your Business</h1>
                     <button type="button" class="hero-button">Order Service</button>
                 </div>
@@ -50,7 +50,7 @@
                         <li class="features-item">
                             <div class="icon-bg">
                                 <svg width="64" height="64">
-                                    <use href="/images/icons.svg#icon-antenna"></use>
+                                    <use href="./images/icons.svg#icon-antenna"></use>
                                 </svg>
                             </div>
                             <h3 class="feature-name">Strategy</h3>
@@ -248,9 +248,7 @@
                         <li class="portfolio-item">
                             <div class="portfolio-wrap">
                                 <img src="./images/Banking_App.jpg" alt="Banking App " width="360" />
-                                <div class="overlay">
-                                    <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
-                                </div>
+                                <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                             </div>
                             <div class="portfolio-item-div">
                                 <h3 class="portfolio-name">Banking App</h3>
@@ -260,9 +258,7 @@
                         <li class="portfolio-item">
                             <div class="portfolio-wrap">
                                 <img src="./images/Cashless_Payment.jpg" alt="Cashless Payment " width="360" />
-                                <div class="overlay">
-                                    <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
-                                </div>
+                                <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                             </div>
                             <div class="portfolio-item-div">
                                 <h3 class="portfolio-name">Cashless Payment</h3>
@@ -272,9 +268,7 @@
                         <li class="portfolio-item">
                             <div class="portfolio-wrap">
                                 <img src="./images/Meditation.jpg" alt="Meditation App " width="360" />
-                                <div class="overlay">
-                                    <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
-                                </div>
+                                <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                             </div>
                             <div class="portfolio-item-div">
                                 <h3 class="portfolio-name">Meditation App</h3>
@@ -284,9 +278,7 @@
                         <li class="portfolio-item">
                             <div class="portfolio-wrap">
                                 <img src="./images/Taxi_Service.jpg" alt="Taxi Service" width="360" />
-                                <div class="overlay">
-                                    <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
-                                </div>
+                                <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                             </div>
                             <div class="portfolio-item-div">
                                 <h3 class="portfolio-name">Taxi Service</h3>
@@ -296,9 +288,7 @@
                         <li class="portfolio-item">
                             <div class="portfolio-wrap">
                                 <img src="./images/Screen_Ill.jpg" alt="Screen Illustrations " width="360" />
-                                <div class="overlay">
-                                    <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
-                                </div>
+                                <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                             </div>
                             <div class="portfolio-item-div">
                                 <h3 class="portfolio-name">Screen Illustrations</h3>
@@ -308,9 +298,7 @@
                         <li class="portfolio-item">
                             <div class="portfolio-wrap">
                                 <img src="./images/Online_Courses.jpg" alt="Online Courses " width="360" />
-                                <div class="overlay">
-                                    <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
-                                </div>
+                                <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                             </div>
                             <div class="portfolio-item-div">
                                 <h3 class="portfolio-name">Online Courses</h3>
@@ -331,24 +319,32 @@
                     <p class="social-media-title">Social media</p>
                     <ul class="footer-icons-list">
                         <li class="footer-icon-item">
-                            <svg class="footer-icon" width="24 " height="24 ">
-                                <use href="./images/icons.svg#icon-instagram "></use>
-                            </svg>
+                            <a class="footer-icon-link">
+                                <svg class="footer-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
                         </li>
                         <li class="footer-icon-item">
-                            <svg class="footer-icon" width="24 " height="24 ">
-                                <use href="./images/icons.svg#icon-twitter "></use>
-                            </svg>
+                            <a class="footer-icon-link">
+                                <svg class="footer-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
                         </li>
                         <li class="footer-icon-item">
-                            <svg class="footer-icon" width="24 " height="24 ">
-                                <use href="./images/icons.svg#icon-facebook "></use>
-                            </svg>
+                            <a class="footer-icon-link">
+                                <svg class="footer-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
                         </li>
                         <li class="footer-icon-item">
-                            <svg class="footer-icon" width="24 " height="24 ">
-                                <use href="./images/icons.svg#icon-linkedin "></use>
-                            </svg>
+                            <a class="footer-icon-link">
+                                <svg class="footer-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
                         </li>
                     </ul>
                 </div>
