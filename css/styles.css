@@ -52,7 +52,6 @@ ul {
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .navigation {
@@ -114,6 +113,10 @@ ul {
 .nav-item:hover,
 .nav-item:focus {
     color: #404bbf;
+}
+
+.address {
+    margin-left: auto;
 }
 
 .address-menu {
